@@ -1,5 +1,5 @@
 {% set name = "types-psycopg2" %}
-{% set version = "2.9.21.20240201" %}
+{% set version = "2.9.21.20240218" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-psycopg2-{{ version }}.tar.gz
-  sha256: 75a92735f62ba36397409ae4758f0241cbc4a9bb30f1f95d3b4a660fea7e7711
+  sha256: 3084cd807038a62c80fb5be78b41d855b48a060316101ea59fd85c302efb57d4
 
 build:
   noarch: python
